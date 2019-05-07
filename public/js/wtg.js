@@ -15,7 +15,7 @@ function validateSignUpForm() {
 
 
     // Check length
-    if (password.length < 3){
+    if (password.length < 8){
         $( "#formDataValidation").html("Password length is smaller than 8!").css('color', 'red');
         return false;
     }
