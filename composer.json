@@ -1,0 +1,28 @@
+{
+    "name": "alejandrogandara/warhammer-tournament-generator",
+    "description": "A college project. Generating a table for tracking warhammer tournament progress",
+    "type": "project",
+    "license": "apache-2.0",
+    "authors": [
+        {
+            "name": "Alex Gandara",
+            "email": "alex@alexgan.net"
+        }
+    ],
+    "require": {
+        "php-di/php-di": "^6.0",
+        "relay/relay": "^2.0",
+        "zendframework/zend-diactoros": "^2.1",
+        "middlewares/fast-route": "^1.2",
+        "middlewares/request-handler": "^1.4",
+        "narrowspark/http-emitter": "^0.8.0",
+        "ext-PDO": "^7.1",
+        "vlucas/phpdotenv": "^3.3",
+        "twig/twig": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WTG\\": "src/"
+        }
+    }
+}
